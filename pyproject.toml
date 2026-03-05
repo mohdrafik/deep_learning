@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "deep_learning_package"
+version = "0.1.0"
+description = "Professional deep learning package for 3D tomographic analysis"
+readme = "README.md"
+authors = [{name = "Moh Rafik", email = "rafikiitbhu@gmail.com"}]
+requires-python = ">=3.8"
+
+# HIGHLIGHT: Added Keras and TensorFlow to dependencies
+dependencies = [
+    "tensorflow>=2.20.0",
+    "keras>=3.12.0",
+    "numpy>=1.24.0",
+    "matplotlib>=3.7.0",
+    "scipy>=1.10.0",
+    "scikit-learn>=1.2.0",
+    "ipython"
+]
+
+[tool.setuptools.packages.find]
+# HIGHLIGHT: This tells setuptools your code is in 'src'
+# It will automatically find 'deep_learning_package' inside it
+where = ["src"]
+
+[project.optional-dependencies]
+# Useful for job-ready repos: keeps the main install light
+dev = [
+    "pytest>=7.0",
+    "black",
+    "jupyter"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/mohdrafik/deep_learning"
+"Bug Tracker" = "https://github.com/mohdrafik/deep_learning/issues"
