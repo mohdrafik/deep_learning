@@ -2,8 +2,8 @@
 #  Deep Learning Foundations — Comprehensive Roadmap 
 
 Author: **Moh Rafik**  
-Duration: **Month 2 (Weeks 5–8)**  
-Learning Time: **6–7 hrs/day**  
+<!-- Duration: **Month 2 (Weeks 5–8)**   -->
+<!-- Learning Time: **6–7 hrs/day**   -->
 Goal: **Master the theory and implementation of Deep Learning — from Neural Networks to Transformers.**
 
 ---
