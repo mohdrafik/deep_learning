@@ -8,6 +8,7 @@ class LogisticRegressionGD:
            
      output:
           fit the and decide weight and Bias.  
+          predict 
     
     """
     def __init__(self, learning_rate=0.01, epochs=1000,threshold = None):
