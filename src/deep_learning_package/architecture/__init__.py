@@ -9,6 +9,8 @@
 """
 from .gradient_dsc_mine import Mine_GradientDescent_LinaerRgression
 from .stochasticGD import StocasticGD
+from .logisticregressionGD import LogisticRegressionGD
+
 # from .model_def import *
 
 print(f"architecture package imported successfully: {StocasticGD} \n and Expose at Sub-level: Put this inside src/deep_learning_package/architecture/__init__.py")

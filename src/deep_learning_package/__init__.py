@@ -1,7 +1,7 @@
 # Use the dot (.) to indicate "from this same folder"
 
 from .general_utils import DataReader, UniversalPlotter
-from .architecture import Mine_GradientDescent_LinaerRgression, StocasticGD
+from .architecture import Mine_GradientDescent_LinaerRgression, StocasticGD, LogisticRegressionGD
 # from .architecture model_def
 from .model_architecture import DeepModel  
 from .trainer import Trainer
