@@ -5,6 +5,7 @@ from .architecture import Mine_GradientDescent_LinaerRgression, StocasticGD, Log
 # from .architecture model_def
 from .model_architecture import DeepModel  
 from .trainer import Trainer
+from .utils import *
 
 # from .general_utils.data_read import DataReader
 # from .general_utils.univershal_plotter import UniversalPlotter
