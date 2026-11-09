@@ -92,3 +92,5 @@ deep_learning_file_structure.png
 notes/
 notebooks/C2_W3_Assignment/
 
+notebooks/lstm_projects/LSTM-next-word-predictor/__pycache__/
+
